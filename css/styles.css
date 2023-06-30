@@ -1,0 +1,401 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+/* Header */
+header {
+    padding: 0 40px;
+}
+.navbar-brand img {
+    height: 65px;
+    width: 73px;
+}
+.navbar-nav .nav-link {
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 700;
+}
+
+/* main_banner Section */
+.main_banner {
+    background-image: url("../Images/Home_bg.png");
+    background-size:cover;
+    height: 100vh;
+    background-position: center;
+    color: #ffffff;
+    padding: 150px 0;
+    text-align: center;
+    margin-bottom: 40px;
+    
+    background-repeat:no-repeat;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+}
+.main_banner_text{
+    position: relative;
+    padding: 20px 20px;
+    background: rgb(66 61 60 / 30%);
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+  
+}
+.add_active{
+    margin: 0px 10px;
+}
+.active_class{
+    position: relative;
+}
+.active_class::before{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: #523d94;
+    content: '';
+    height: 2px;
+}
+.active_class .nav-link{
+    color: #523d94 !important;
+}
+
+.main_banner h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.main_banner p {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: normal;
+    font-family: 'Manrope', sans-serif;
+}
+footer {
+    background-color: #523D94;
+    padding: 40px 0;
+    color: #ffffff;
+    padding-bottom: 0;
+}
+.footer-logo img {
+    height: 60px;
+    width: 67px;
+    margin-bottom: 20px;
+}
+.useful-links ul,
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+.useful-links ul li,
+.social-media ul li {
+    margin-bottom: 10px;
+}
+.useful-links ul li a,
+.social-media ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.social-media h4{
+    font-weight: 700;
+}
+.useful-links ul li a {
+    font-size: 18px;
+}
+.useful-links h4 {
+    font-size: 26px;
+    font-weight: 700;
+}
+.social_links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+.social_links li {
+    margin-right: 10px;
+  }
+  
+
+.social_links li a {
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    
+  }
+  .rights_reserved{
+    text-align: center;
+  }
+  .rights_reserved p {
+    font-size: 16.76px;
+    line-height: 25px;
+    font-weight: 700;  
+  }
+  
+/* About us  */
+.add_pdf a{
+    text-decoration: none;
+    color: #000;
+}
+.main_heading{
+     background-color: #F9F6FF;
+     padding: 40px 50px;
+     margin-bottom: 50px;
+    
+}
+.main_heading h1{
+    font-weight: 800;
+    color: #523D94;
+    align-items: center;
+    padding-left: 15px;
+}
+.about_text h2 {
+    font-size: 38px;    
+    font-weight: 700;
+    color: #523D94;
+}
+.about_text ul li{
+    color: #523D94;
+}
+
+.about_text p {
+    font-size: 2;
+    list-style: d;
+}
+.about_text ul {
+    padding-left: 20px;
+}
+
+.about_text2 ul li { 
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.about_img {
+    max-width: 100%;
+    min-width: 100%;
+}
+.about_img_text {
+    margin: 0px 0px 50px;
+    padding: 0px 25px;
+}
+.block_process_section{
+    transition: 0.2s;
+}
+.block_process_section:hover{
+transform: translateY(-20px);
+background: linear-gradient(to bottom, #5c5cd3 0%, #c5bebe 100%);
+}
+.block_process_section:hover .round_circle_small{
+    background: linear-gradient(to bottom, #523d94 0%, #ffffff 100%);
+
+}
+/* contact---pages-----csss-------start--------- */
+.getin_touch{
+    margin: 15px 0px 0px;
+}
+.getin_touch h2, span {
+    font-weight: 700;
+}
+.in_touch {
+    color: #ffc631;
+}
+.contactus_title{
+    display: flex;
+    align-items: center;
+}
+.contactus_title h5{ 
+    font-size: 15px;
+    font-weight: 800;
+    margin: 0px;
+}
+.dash {
+    width: 42px;
+    background: #ffc631;
+    height: 2px;
+}
+.contact-details p {
+    font-size:14px;
+    color: #A9A9A9;
+    font-weight: 600;
+}
+.contact-details h5 {
+    font-size: 17px;
+    font-weight: 800;
+}
+.contact_links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;    
+}
+.all_logo{
+    margin-right: 25px;
+    height: 30px;
+    width: 30px;
+}
+.all_logo img{
+    max-height: 100%;
+}
+.contact-form {
+  flex: 1;
+  padding: 20px 0px;
+  background-color: #ffffff;
+}
+.contact-details {
+  flex: 1;
+  padding: 20px 40px;
+  background-color: #f8f8f8;
+  margin-top: 20px;
+}
+.contact-details ul {
+  display: flex;
+  padding: 0px;
+  list-style: none;
+  margin-top: 15px;
+  margin-bottom: 0px;
+ 
+}
+.contact-details ul li {
+    margin: 0px 20px 0px 0px;
+}
+.contact-details ul li img {
+  height: 30px;
+  width: 30px;
+}
+.input_field{
+    border-radius: 0px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    width: 100%;
+    outline: unset;
+}
+.mgs_field{
+    min-height:157px;
+}
+.submit-btn {
+  width: 100%;
+  background-color: #ffc631;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0px;
+  cursor: pointer;
+  font-weight: 700;
+  outline: unset !important;
+}
+.contact_input_name{
+  display: flex;
+  
+}
+.heading_contect_details{
+    margin: 15px 0px 8px;
+}
+/* contact---pages-----csss-------end--------- */
+
+/* carreer---page----css---start---here */
+.career_img {
+    width: 100%;
+    /* height:85%; */
+}
+.career_img img{
+    border-radius: 20px;
+    max-width: 100%;
+    min-width: 100%;
+    height: 100%;
+}
+.career_text p{
+    font-size:18px
+}
+.career_details {
+    background: #eaeaea;
+    padding: 18px 0px; 
+    margin: 50px 0px 80px;
+}
+.career_details p{
+    font-weight: 600;
+}
+/* carreer---page----css---end---here */
+
+
+
+/* privacy---pages----start---here */
+.pivacy_block{
+    margin: 0px 0px 80px;
+}
+.pivacy_block h5{
+    font-weight: 700;
+    font-size: 22px;
+}
+.pivacy_block p{
+    font-size: 17px;
+}
+
+
+/* privacy---pages----start---here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Styles */
+/* @media (max-width: 767px) {
+    .navbar-nav .nav-link {
+        padding: 8px 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .main_banner h1 {
+        font-size: 28px;
+    }
+} */
+
+
